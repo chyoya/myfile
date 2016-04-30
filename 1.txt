@@ -1,15 +1,6 @@
-apt-cache search +package(安装包名）
-
-apt-get install +package
-
-
-apt-get update/upgrade/dist-upgrade/dselect-upgrade
-
-pgrep + 进程关键字/-l+进程关键字
-
-dpkg-reconfigure locales（安装需要与删除不需要的语言包）
-（apt-get install localepurge ）
-
-
-
+djkd
+snd
+	sndk
+		dsdkl
+sjdk sja;ds
 

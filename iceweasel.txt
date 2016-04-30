@@ -1,0 +1,21 @@
+iceweasel
+Ctrl+Home：移动标签到开头。
+Ctrl+End：移动标签到结尾。
+Ctrl+T：新建标签页。
+Ctrl+K 或 Ctrl+E：网页搜索
+Ctrl+N：新建窗口。
+Ctrl+Tab 下一个标签页。
+Alt+Enter 在新标签页打开网址。
+Ctrl+Shift+T：撤销关闭标签页。
+Ctrl+D:添加当前为书签。
+Ctrl+B 或 Ctrl+I：打开书签。
+F7：插入浏览
+Ctrl+J：下载。
+Ctrl+H：历史。
+Ctrl+Shift+Del：清除私有数据。
+Ctrl+Enter：补全 .com 地址。    
+Shift+Enter：补全 .net 地址。
+Ctrl+Shift+Enter：补全 .org 地址。
+F11：全屏
+Ctrl+L：选择地址条
+Alt+上方向键或 Alt+下方向键 刷新到前一个或后一个打开的的页面
