@@ -108,6 +108,7 @@ Plugin 'derekwyatt/vim-protodef'
 Plugin 'scrooloose/nerdtree'
 Plugin 'fholgado/minibufexpl.vim'
 Plugin 'gcmt/wildfire.vim'
+Plugin 'vimwiki/vimwiki'
 Plugin 'sjl/gundo.vim'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'suan/vim-instant-markdown'
@@ -526,3 +527,13 @@ let g:wildfire_objects = ["i'", 'i"', "i)", "i]", "i}", "i>", "ip"]
 
 " 调用 gundo 树
 nnoremap <Leader>ud :GundoToggle<CR>
+
+let g:ycm_global_ycm_extra_conf ='~/.vim/bundle/youcompleteme/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py' 
+""按gb 会跳转到定义
+nnoremap <silent> gb :YcmCompleter GoToDefinitionElseDeclaration<CR>   
+"打开vim时不再询问是否加载ycm_extra_conf.py配置
+let g:ycm_confirm_extra_conf=0   
+""使用ctags生成的tags文件
+let g:ycm_collect_identifiers_from_tag_files = 1 
+map <F4> : YcmDiags<CR>
+
