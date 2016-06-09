@@ -1,0 +1,44 @@
+# ~/.bashrc: executed by bash(1) for non-login shells.
+
+# Note: PS1 and umask are already set in /etc/profile. You should not
+# need this unless you want different defaults for root.
+# PS1='${debian_chroot:+($debian_chroot)}\h:\w\$ '
+# umask 022
+
+# You may uncomment the following lines if you want `ls' to be colorized:
+# export LS_OPTIONS='--color=auto'
+# eval "`dircolors`"
+ alias ls='ls -a'
+ alias ll='ls -l'
+ alias l='ls-lA'
+ alias rm='rm -i'
+ alias sx='source ~/.bashrc'
+ alias pz='vim ~/.bashrc'
+ alias cj='vim ~/.vimrc'
+ alias cp='cp -i'
+ alias mv='mv -i'
+ alias up='aptitude update'
+ alias up1='aptitude safe-upgrade'
+ alias up2='aptitude dist-upgrade'
+ alias up3='aptitude full-upgrade'
+ alias install='aptitude install'
+ alias remove='aptitude remove'
+ alias remove1='aptitude purge'
+ alias search='aptitude search string'
+ alias show='aptitude show'
+ alias autoclean='aptitude autoclean'
+ alias clc='aptitude clean'
+ alias show='aptitude shown'
+ alias bp='aptitude versions'
+ alias search='aptitude search'
+ alias ccc='clear'
+ alias ee='exit'
+ alias CD='gedit /home/chyoya/Documents/cd.txt'
+ alias IC='gedit /home/chyoya/Documents/iceweasel.txt'
+ alias VI='gedit /home/chyoya/Documents/vim.txt'
+ alias TE='gedit /home/chyoya/Documents/terminal.txt'
+ alias SY='gedit /home/chyoya/Documents/随意录.txt'
+ alias ~~='cd /home/chyoya/'
+ alias ~x='cd /home/chyoya/Downloads/'
+ alias ~w='cd /home/chyoya/Documents/'
+
