@@ -1,5 +1,14 @@
 lantern---tor
 桥/http/https/127.0.0.1:8787
+linux 缺少的库函数 apt-get install libappindicator3-1
+#查杀指令
+xkill--终端命令，杀桌面客户端
+pkill/kilall + 程序名
+kill -9/kill强制查杀/一般查杀ID
+pgrep -l （httpd）/显示冒个程序的ID
+#安装.deb软件
+dpkg -i *.deb
+apt-get -f install /修复依赖
 #全选 //ggVG
 gg  让光标移到首行 
 V   是进入Visual(可视）模式
