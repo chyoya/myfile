@@ -126,3 +126,12 @@ $ vi  file1  file2    首先编辑file1，完成第一个文件的编辑后，ex
 :起始行号,结束行号s#^#注释符#g
 在27 - 30行添加 // 注释
 :27,30s#^#//#g
+129 #安装debian 8 Ubuntu 14.10下安装VMware Workstation 11
+130 1.sudo apt-get update  
+131 2.sudo apt-get upgrade 
+132 3.wget https://download3.vmware.com/software/wkst/file/VMware-Workstation-Full-11.0.0
+133 4.chmod a+x VMware-Workstation-Full-11.0.0-2305329.x86_64.bundle
+134 5.sudo ./VMware-Workstation-Full-11.0.0-2305329.x86_64.bundle
+135 6.1F04Z-6D111-7Z029-AV0Q4-3AEH8                 
+136 7.sudo apt-get install linux-headers-$(uname -r)
+137 8.install open-vm-tools
