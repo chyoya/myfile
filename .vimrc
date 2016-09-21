@@ -103,7 +103,7 @@ Plugin 'SirVer/ultisnips'
 "YouCompleteMe unavailable: requires Vim compiled with Python (2.6+ or 3.3+) support
 "apt-get install vim-nox
 "ubuntu apt-get install vim-gnome-py2 (remove vim-gnome, vim-gtk, vim-nox)
-Plugin 'valloric/youcompleteme'
+Plugin 'Valloric/YouCompleteMe'
 Plugin 'derekwyatt/vim-protodef'
 Plugin 'scrooloose/nerdtree'
 Plugin 'fholgado/minibufexpl.vim'
