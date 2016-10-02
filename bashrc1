@@ -41,4 +41,6 @@
  alias ~~='cd /home/chyoya/'
  alias ~x='cd /home/chyoya/Downloads/'
  alias ~w='cd /home/chyoya/Documents/'
+ alias host='cd /home/chyoya/Downloads && wget https://raw.githubusercontent.com/racaljk/hosts/master/hosts'
+ alias host1='mv -f /home/chyoya/Downloads/hosts /etc/hosts'
 
