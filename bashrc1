@@ -1,5 +1,6 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
-
+# https://github.com/sysorem/m3u8-playlist-for-hls/blob/master/playlist.m3u
+# https://github.com/sysorem/m3u8-playlist-for-hls/blob/master/live.m3u
 # Note: PS1 and umask are already set in /etc/profile. You should not
 # need this unless you want different defaults for root.
 # PS1='${debian_chroot:+($debian_chroot)}\h:\w\$ '
@@ -43,4 +44,4 @@
  alias ~w='cd /home/chyoya/Documents/'
  alias host='cd /home/chyoya/Downloads && wget https://raw.githubusercontent.com/racaljk/hosts/master/hosts'
  alias host1='mv -f /home/chyoya/Downloads/hosts /etc/hosts'
-
+ 
