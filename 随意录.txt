@@ -1,3 +1,21 @@
+#安装sudo
+apt-get install sudo
+vim /etc/sudoers
+增加一行
+user-name ALL=(ALL:ALL) ALL
+
+#安装flash
+apt-get install flashplugin-nonfree
+update-flashplugin-nonfree --install
+升级方法
+到官网下载相应的压缩包并解压得到libflashplayer.so
+mv lib* /usr/lib/flashplugin-nonfree/libflashplayer.so
+ 
+#freshclam
+/etc/inin.d/clamav-freshclam stop
+freshclam -v
+/etc/init.d/clamav-freshclam start
+
 lantern---tor
 桥/http/https/127.0.0.1:8787
 linux 缺少的库函数 apt-get install libappindicator3-1
