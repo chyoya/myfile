@@ -1,0 +1,52 @@
+# ~/.bashrc: executed by bash(1) for non-login shells.
+
+# Note: PS1 and umask are already set in /etc/profile. You should not
+# need this unless you want different defaults for root.
+# PS1='${debian_chroot:+($debian_chroot)}\h:\w\$ '
+# umask 022
+
+# You may uncomment the following lines if you want `ls' to be colorized:
+# export LS_OPTIONS='--color=auto'
+# eval "`dircolors`"
+#https://github.com/sysorem/m3u8-playlist-for-hls/blob/master/live.m3u
+#https://github.com/sysorem/m3u8-playlist-for-hls/blob/master/playlist.m3u
+ alias qq='shutdown -h now'
+ alias ll='ls -a'
+ alias lll='ls -l'
+ alias rm='rm -i'
+ alias sx='source ~/.bashrc'
+ alias pz='vim ~/.bashrc'
+ alias cj='vim ~/.vimrc'
+ alias cp='cp -i'
+ alias mv='mv -i'
+ alias up='aptitude update && apt-get update'
+ alias up1='aptitude safe-upgrade && apt-get upgrade'
+ alias up2='aptitude dist-upgrade'
+ alias up3='aptitude full-upgrade'
+ alias install='aptitude install'
+ alias install1='apt-get install'
+ alias remove='aptitude remove'
+ alias remove1='aptitude purge && apt-get autoremove'
+ alias search='aptitude search string'
+ alias show='aptitude show'
+ alias clc1='aptitude autoclean && apt-get autoclean'
+ alias clc='aptitude clean && apt-get clean'
+ alias show='aptitude shown'
+ alias bb='aptitude versions'
+ alias search='aptitude search'
+ alias cc='clear'
+ alias zz='exit'
+ alias CD1='vim /home/chyoya/Documents/cd.txt'
+ alias IC='vim /home/chyoya/Documents/iceweasel.txt'
+ alias VI='vim /home/chyoya/Documents/vim.txt'
+ alias TE='vim /home/chyoya/Documents/terminal.txt'
+ alias SY='vim /home/chyoya/Documents/随意录.txt'
+ alias ~~='cd /home/chyoya/'
+ alias ~x='cd /home/chyoya/Downloads/'
+ alias ~w='cd /home/chyoya/Documents/'
+ alias host0='cd /home/chyoya/Downloads && wget https://coding.net/u/scaffrey/p/hosts/git/raw/master/hosts'
+ alias host1='cd /home/chyoya/Downloads && wget https://raw.githubusercontent.com/racaljk/hosts/master/hosts'
+ alias host='mv -f /home/chyoya/Downloads/hosts /etc/hosts'
+ alias sd='clamscan -r /home --move /home/chyoya/Desktop/'
+ alias sd1='clamscan -r /  --move /home/chyoya/Desktop/'
+ alias th='mv lib* /usr/lib/flashplugin-nonfree/libflashplayer.so'
